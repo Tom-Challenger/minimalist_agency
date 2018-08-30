@@ -1,0 +1,342 @@
+body {
+	min-width: 1920px;
+	padding: 0;
+	margin: 0;
+	/**/
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-size: 60px;
+	font-weight: 400;
+	/**/
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 400;
+	/**/
+	color: black;
+	background-color: white;
+}
+
+
+.container {
+	width: 1580px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.page-header {
+	min-height: 968px;
+	margin-bottom: 240px;
+	background-image: url("../img/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.header-top {
+	padding-top: 65px;
+	margin-bottom: 250px;
+}
+
+.header-top .btn-next {
+	display: block;
+	float: left;
+	margin-left: 204px;
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #d22425;
+}
+
+.header-top .btn-menu {
+	display:block;
+	float: right;
+	width: 31px;
+	height: 23px;
+	margin-top: 35px;
+}
+
+.promo {
+	padding-left: 583px;
+	margin-bottom: 210px;/*340px;*/
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+}
+.promo .font-30 {
+	font-size: 30px;
+}
+.promo .font-100 {
+	font-size: 100px;
+	font-weight: bold;
+}
+.promo .font-60 {
+	font-size: 60px;
+}
+.promo .c-red {
+	color: #d22425;
+}
+.promo .c-grey {
+	color: #dbdbdb;
+}
+.promo .c-black {
+	color: #333333;
+}
+.tt-up {text-transform: uppercase;}
+.tt-lw {text-transform: lowercase;}
+
+.btn-down {
+	position: relative;
+	bottom: 0;
+	left: 50%;
+	display: block;
+	width: 54px;
+	height: 54px;
+	margin-bottom: 80px;
+}
+
+
+.what-we-do .content {
+	position: relative;
+	padding: 0 205px 0 205px;
+}
+.what-we-do .art {
+	float: right;
+	width: 486px;
+	height: 580px;
+	background-image: url("../img/art-1.png");
+	background-repeat: no-repeat;
+}
+.what-we-do .text {
+	float: left;
+	width: 515px;
+	margin-right: 169px;
+}
+.what-we-do .section-title {
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+ 	line-height: 121px;
+	color: #333333;
+}
+.what-we-do .subscript-title {
+	padding-left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 8px;
+	letter-spacing: 2px;
+	color: #393939;
+	text-transform: uppercase;
+}
+.what-we-do p {
+	padding-left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 28px;
+	color: #898f9f;
+}
+.what-we-do .text .section-title:before {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 110px;
+	content:"What we do?";
+	font-family: 'Playfair Display', serif;
+	font-size: 110px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 135px;
+	color: #5a5a5a;/*dbdbdb*/
+	opacity: 0.03;
+}
+
+.feedback {
+	margin-top: 290px;
+}
+.feedback .content {
+	position: relative;
+	padding: 0 205px 0 205px;
+}
+.feedback .section-title {
+	margin: 0 0 40px 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 8px;
+	color: #333333;
+}
+.feedback .subscript-title {
+	width: 300px;
+	margin: 0 0 40px 0;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #898f9f;
+}
+.feedback .section-title:before {
+	display: block;
+	position: absolute;
+	top: 235px;
+	left: 10px;
+	content:"Contact Us";
+	font-family: 'Playfair Display', serif;
+	font-size: 100px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 8px;
+	color: #5a5a5a;/*dbdbdb;*/
+	opacity: 0.03;
+	transform: rotate(-90deg); /**/
+	-webkit-transform: rotate(-90deg); /*Chrome, Safari*/
+	-moz-transform: rotate(-90deg); /*Firefox*/
+	-o-transform: rotate(-90deg); /*Opera*/
+	-ms-transform: rotate(-90deg); /*IE*/
+}
+
+.feedback-form {
+	margin-left: 70px;
+}
+
+.feedback-form-group input[type="text"],
+.feedback-form-group textarea {
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #898f9f;
+}
+
+.feedback-form-group-left-part {
+    float: left;
+	padding-left: 20px;
+}
+
+.feedback-form-group-right-part {
+    float: right;
+}
+
+.feedback-form-group-right-part-clear {
+    float: right;
+	clear: both;
+	padding-right: 18px;
+}
+
+/**/
+.optional-field {
+	position: relative;
+	display: block;
+}
+.optional-field span {
+	position: absolute;
+	top: 13px;
+	right: 20px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #4c4c4c;
+	opacity: 0.3;
+}
+
+.feedback-form-group input[type="text"]:focus + .optional-input-label {
+	visibility: hidden;
+}
+
+.feedback-form-group input[type="text"] {
+	display: block;
+	width: 400px;
+}
+
+.feedback-form-group textarea {
+	display: block;
+	width: 600px;
+	min-height: 178px;
+}
+
+.btn-send {
+	width: 130px;
+	height: 50px;
+	border: none;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #d22425;
+}
+
+.page-footer {
+	//min-height: 302px;
+	//background-image: url("../img/footer-bg.jpg");
+	//background-repeat: no-repeat;
+	//background-position: center top;
+}
+
+.page-footer .container {
+	position: relative;
+	padding-top: 130px;
+}
+
+.page-footer .color {
+	position: absolute;
+	top: 0;
+	left: -170px;
+	z-index: -1;
+	min-width: 428px;
+	min-height: 302px;
+	background-image: url("../img/color.jpg");
+	background-repeat: no-repeat;
+}
+
+.page-footer .footer-bottom {
+	padding-top: 70px;
+	padding-right: 575px;
+	padding-left: 575px;/*div.widht=padding_left + hert.width + padding_right*/
+	border-top: 1px solid rgb(243,243,243);
+	margin-right: 205px;
+	margin-left: 205px;
+	background-color: transparent;
+}
+
+.page-footer .heart {
+	width: 20px;
+	height: 18px;
+	background-image: url("../img/heart.png");
+	background-repeat: no-repeat;
+	/*background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;*/
+}
